@@ -85,12 +85,12 @@ class MainActivity : AppCompatActivity() {
 
         shortsLayout.setOnClickListener {
             dialog.dismiss()
-            Toast.makeText(this, "Create a short is Clicked", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Create a Quick Tip is Clicked", Toast.LENGTH_SHORT).show()
         }
 
         liveLayout.setOnClickListener {
             dialog.dismiss()
-            Toast.makeText(this, "Go live is Clicked", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Teach live is Clicked", Toast.LENGTH_SHORT).show()
         }
 
         cancelButton.setOnClickListener {
